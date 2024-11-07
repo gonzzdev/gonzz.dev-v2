@@ -1,0 +1,55 @@
+<header>
+    <a href="#">
+        <img src="/assets/images/logotype.png" alt="José Gonzz logotype" class="header-logo">
+    </a>
+
+    <ul class="navigation">
+        <a href="#" class="nav-item">
+            <li>Home</li>
+        </a>
+        <a href="/#work" class="nav-item">
+            <li>Work</li>
+        </a>
+        <a href="/#about" class="nav-item">
+            <li>About</li>
+        </a>
+        <a href="/#contact" class="nav-item">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+    <div class="language-selector">
+        <img src="/assets/icons/lang-icon.svg" alt="Language icon" class="language-icon">
+        <img src="/assets/icons/chevron.svg" alt="Chevron icon" class="chevron-icon">
+    </div>
+</header>
+
+<style is:global>
+    header {
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--shades-white);
+        margin-top: 20px;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-item {
+        font-size: var(--text-base);
+        font-weight: var(--font-weight-medium);
+        text-transform: uppercase;
+    }
+
+    .header-logo {
+        margin-left: 100px;
+    }
+
+    .language-selector {
+        margin-right: 100px;
+    }
+</style>

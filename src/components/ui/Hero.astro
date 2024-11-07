@@ -1,0 +1,47 @@
+---
+import MainButton from "./MainButton.astro"
+import SecondaryButton from "./SecondaryButton.astro"
+---
+
+<main class="section">
+    <h1 class="display-text">
+        Hey there! I’m José, a web designer providing creative solutions to technical problems
+    </h1>
+    <p class="hero-description">
+        Specialized in creating intuitive and visually stunning websites and interfaces. Working with people and businesses companies that need to digitalize their brands. Based in MX, working everywhere.
+    </p>
+    <div class="button-group">
+        <MainButton>Download Resume</MainButton>
+        <SecondaryButton>Check my links</SecondaryButton>
+    </div>
+</main>
+
+<style>
+    .section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .display-text {
+        font-family: var(--font-family-wide);
+        font-size: 58px;
+        text-transform: uppercase;
+        line-height: 64px;
+        margin-top: 150px;
+    }
+
+    .hero-description {
+        display: flex;
+        position: absolute;
+        width: 502px;
+        margin-left: 378px;
+        margin-top: -55px;
+        line-height: 18px;
+    }
+
+    .button-group {
+        display: flex;
+        margin-top: 8px;
+        gap: 12px;
+    }
+</style>

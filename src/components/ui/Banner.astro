@@ -1,0 +1,37 @@
+<div class="banner">
+    <div class="scroll-indicator">
+        <img src="/assets/icons/double-arrow-icon.svg" alt="" class="scroll-icon">
+        <a href="/#work">Scroll down</a>
+    </div>
+</div>
+
+<style>
+    .banner {
+        border-top: 4px solid var(--primary-700);
+        border-bottom: 4px solid var(--primary-700);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .scroll-indicator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scroll.icon, img {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 24px;
+    }
+
+    .scroll-icon, a {
+        font-size: var(--text-base);
+        font-weight: var(--font-medium);
+        text-transform: uppercase;
+    }
+</style>
